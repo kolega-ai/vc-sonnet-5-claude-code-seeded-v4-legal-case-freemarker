@@ -1,0 +1,15 @@
+:root {
+  --brand: #1f3a5f;
+}
+body { background-color: #f4f6f9; }
+.app-navbar { background-color: var(--brand) !important; }
+.app-main { min-height: 80vh; }
+.card { border-radius: .5rem; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 3px solid #ffb703;
+  outline-offset: 2px;
+}
+.status-icon { font-size: .5rem; vertical-align: middle; margin-right: 2px; }
+.empty-state { padding: 3rem; text-align: center; color: #6c757d; }
+table.table-hover tbody tr:hover { background-color: #eef2f7; }
+.badge { font-weight: 500; }
